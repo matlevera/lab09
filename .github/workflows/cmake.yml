@@ -2,11 +2,11 @@ name: CMake
 
 on:
   push:
-    branches: [ main ]
+    branches: [ timp ]
     tags: -"v*0.*"
           
   pull_request:
-    branches: [ main ]
+    branches: [ timp ]
 
 env:
   
